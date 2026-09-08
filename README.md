@@ -1,22 +1,58 @@
-# Custom Decision Tree & Random Forest From Scratch
+# Custom Decision Tree & Random Forest From Scratch 🌳
 
-Machine Learning Internship Project - Devnexes Digital Solutions
+A Machine Learning project implementing **Decision Tree Classifier** and **Random Forest Ensemble** algorithms from scratch using Python and NumPy.
 
-## Features
-- Vectorized Gini Impurity
-- Information Gain based split
-- Recursive Decision Tree implementation
-- Random Forest using bootstrap sampling and feature selection
-- Streamlit web demo
+This project was developed as part of a **4-week Machine Learning Internship Project**.
 
-## Run
-```bash
+## 🚀 Live Demo
+Streamlit App:
+https://custom-decision-tree-random-forest-csbwg7xiwachmkqbqikfn.streamlit.app/
+
+## 📌 Project Overview
+
+The goal of this project is to understand and implement core Machine Learning algorithms without using built-in tree models from Scikit-learn.
+
+Implemented:
+- Gini Impurity calculation
+- Information Gain based splitting
+- Recursive Decision Tree algorithm
+- Random Forest using multiple decision trees
+- Bootstrap sampling
+- Majority voting prediction
+- Streamlit web application
+
+## 📂 Project Structure
+
+custom-decision-tree-random-forest
+├── app.py ├── requirements.txt ├── README.md
+└── custom_tree ├── init.py ├── gini.py ├── decision_tree.py └── random_forest.py
+
+## 🛠️ Technologies Used
+
+- Python
+- NumPy
+- Pandas
+- Scikit-learn (Dataset & Evaluation)
+- Streamlit
+- GitHub
+
+## 📊 Results
+
+The model was tested on the Iris dataset.
+
+Accuracy:
+**100%**
+
+## ▶️ Run Locally
+
+Install dependencies:
 pip install -r requirements.txt
-streamlit run app.py
-```
 
-## Project Structure
-- custom_tree/gini.py : Gini and split calculations
-- custom_tree/decision_tree.py : Decision Tree from scratch
-- custom_tree/random_forest.py : Random Forest ensemble
-- app.py : Streamlit interface
+Run Streamlit:
+streamlit run app.py
+
+## 👨‍💻 Author
+
+Irfan Shah
+
+BS Computer Science (Artificial Intelligence)
